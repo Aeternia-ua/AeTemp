@@ -15,7 +15,7 @@ public class SortOneFunc {
 		}
 		System.out.println("The start result is " + startList);
 
-		// finding minimum
+		// finding minimum, and then using a var for getting sum of numbers in array
 		Integer a = new Integer(0);
 		Integer min = startNumbers[0];
 		for (int num : startNumbers) {
